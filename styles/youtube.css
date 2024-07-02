@@ -1,0 +1,53 @@
+body {
+  margin: 0px 15px;
+  padding-top: 60px;
+  padding-left: 250px;
+}
+p {
+  font-family: Roboto, arial;
+}
+
+.total-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+  padding-top: 75px;
+}
+.main-con {
+  display: inline-block;
+}
+
+.preview {
+  width: 100%;
+  border-radius: 15px;
+}
+.sub-con {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin-top: 10px;
+}
+.icon-img {
+  width: 40px;
+  border-radius: 50px;
+}
+.vid-info {
+  margin-left: 9px;
+}
+
+.vid-tittle {
+  width: 250px;
+  margin: 0px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.auth-name {
+  margin-bottom: 0px;
+  color: #606060;
+  font-size: 14px;
+}
+.vid-st-info {
+  margin-top: 5px;
+  color: #606060;
+  font-size: 15px;
+}

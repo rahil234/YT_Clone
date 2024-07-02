@@ -1,0 +1,96 @@
+.header {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: white;
+}
+.left-section {
+  align-items: center;
+  display: flex;
+}
+.hum {
+  height: 25px;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.yt-logo {
+  height: 20px;
+  cursor: pointer;
+}
+
+.middle-section {
+  flex: 1;
+  max-width: 600px;
+  margin-left: 70px;
+  margin-right: 35px;
+  align-items: center;
+  display: flex;
+}
+.search-bar {
+  flex: 1;
+  height: 36px;
+  padding-left: 15px;
+
+  border-radius: 50px 0px 0px 50px;
+  border: 0.5px solid rgb(190, 190, 190);
+  font-size: 16px;
+}
+.serach-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.search-icon {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid;
+  border-radius: 0px 50px 50px 0px;
+  border-color: rgb(190, 190, 190);
+  margin-left: -1px;
+  cursor: pointer;
+}
+.search-img {
+  width: 28px;
+  margin: 5px 10px;
+}
+.voice-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.voice-img {
+  padding-top: 5px;
+}
+
+.right-section {
+  align-items: center;
+
+  display: flex;
+}
+.up-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.noti-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.logo-img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
